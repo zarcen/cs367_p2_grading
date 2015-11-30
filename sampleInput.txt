@@ -1,0 +1,40 @@
+?
+d
+j
+j hello
+j 10
+b
+s info.txt
+f
+f a
+a H1 due 6/15
+a H3 due 7/6
+b H2 due 6/22
+d
+s messages.txt
+d
+>
+a P1 due 6/22
+j 3
+d
+b Midterm Exam 7/16 & 7/17
+b Final Exam 8/13 & 8/14 
+j -2
+b P2 due 7/11
+d
+f H
+f H
+f P1
+f Quiz
+d
+r
+<
+<
+d
+l info.txt
+l messages.txt
+d
+u H4 due 7/13
+d
+s messages.txt
+q

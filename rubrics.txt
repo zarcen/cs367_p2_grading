@@ -1,0 +1,93 @@
+Class EmptyLoopException (10)
+
+Class LinkedLoopIterator (15)
+    hasNext() (-5)
+        Comment:
+    next() (-10)
+        Comment:
+
+Class LinkedLoop (25)
+    Constructor (-2)
+        Comments:
+    getCurrent() (-4)
+        Comments:
+    insert() (-4)
+        Comments:
+    isEmpty() (-2)
+        Comments:
+    forward() (-5)
+        Comments:
+    backward() (-5)
+        Comments:
+    removeCurrent() (-4)
+        Comments:
+    size() (-2)
+        Comments:
+    iterator() (-3)
+        Comments:
+
+Class MessageLoopEditor (40)
+    Output format not as specified (-4)
+        Comments:
+    Minor output format problems (e.g., a few extra commas or extra spaces) (-1)
+        Comments:
+    Iterators not used where appropriate (-4)
+        Comments:
+    Command 'a' (5)
+        Comments:
+    Command 'b' (5)
+        Comments:
+    Command 'f' (5)
+        Comments:
+    Command 'r' (5)
+        Comments:
+    Command 'u' (5)
+        Comments:
+    Command '>' (5)
+        Comments:
+    Command '<' (5)
+        Comments:
+    Command 'j' (5)
+        Comments:
+
+
+Program design (10)
+    Customer class modified (-2)
+        Comments:
+    Additional public methods/constructors added (-2)
+        Comments:
+    Didn't use generic data type (-2)
+        Comments:
+    Didn't use LinkedLoopIterator to traverse items (-3)
+        Comments:
+    Excessive/unnecessary additional classes (-1)
+        Comments:
+    All data members should be private for this assignment and should not be accessed directly outside the class they were declared in (-2)
+        Comments:
+
+
+Style and Documentation (10)
+    File name not the same as the class name (-1 per file) (-3)
+        Comments:
+    File name is incorrect (-1 per file) (-3)
+        Comments:
+    Bad Style: line up braces (-1)
+        Comments:
+    Bad Style: use vertical whitespace (-1)
+        Comments:
+    Bad Style: use horizontal whitespace (-1)
+        Comments:
+    Bad Style: indent to show level of nesting (-1)
+        Comments:
+    Bad Style: lines must not exceed 80 columns (-1)
+        Comments:
+    Bad Style: follow naming conventions (-1)
+        Comments:
+    Bad Style: use descriptive names (-1)
+        Comments:
+    Bad Commenting: each file requires a header comment (-1)
+        Comments:
+    Bad Commenting: each class/method requires javadoc-style comments (-1)
+        Comments:
+    Bad Commenting: use comments in method bodies (-1)
+        Comments:

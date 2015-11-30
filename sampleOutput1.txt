@@ -1,0 +1,113 @@
+enter command (? for help): a (add after)  b (add before)  d (display)
+f (find)       r (remove)      u (update)
+> (next)       < (previous)    j (jump)
+s (save)       l (load)        q (quit)
+enter command (? for help): no messages
+enter command (? for help): invalid command
+enter command (? for help): invalid command
+enter command (? for help): no messages
+enter command (? for help): invalid command
+enter command (? for help): no messages to save
+enter command (? for help): invalid command
+enter command (? for help): no messages
+enter command (? for help): ===[ H1 due 6/15 ]===
+enter command (? for help): ===[ H3 due 7/6 ]===
+     H1 due 6/15
+enter command (? for help):      H1 due 6/15
+===[ H2 due 6/22 ]===
+     H3 due 7/6
+enter command (? for help): H2 due 6/22
+H3 due 7/6
+H1 due 6/15
+enter command (? for help): warning: file already exists, will be overwritten
+enter command (? for help): H2 due 6/22
+H3 due 7/6
+H1 due 6/15
+enter command (? for help):      H2 due 6/22
+===[ H3 due 7/6 ]===
+     H1 due 6/15
+enter command (? for help):      H3 due 7/6
+===[ P1 due 6/22 ]===
+     H1 due 6/15
+enter command (? for help):      H2 due 6/22
+===[ H3 due 7/6 ]===
+     P1 due 6/22
+enter command (? for help): H3 due 7/6
+P1 due 6/22
+H1 due 6/15
+H2 due 6/22
+enter command (? for help):      H2 due 6/22
+===[ Midterm Exam 7/16 & 7/17 ]===
+     H3 due 7/6
+enter command (? for help):      H2 due 6/22
+===[ Final Exam 8/13 & 8/14 ]===
+     Midterm Exam 7/16 & 7/17
+enter command (? for help):      P1 due 6/22
+===[ H1 due 6/15 ]===
+     H2 due 6/22
+enter command (? for help):      P1 due 6/22
+===[ P2 due 7/11 ]===
+     H1 due 6/15
+enter command (? for help): P2 due 7/11
+H1 due 6/15
+H2 due 6/22
+Final Exam 8/13 & 8/14
+Midterm Exam 7/16 & 7/17
+H3 due 7/6
+P1 due 6/22
+enter command (? for help):      P2 due 7/11
+===[ H1 due 6/15 ]===
+     H2 due 6/22
+enter command (? for help):      H1 due 6/15
+===[ H2 due 6/22 ]===
+     Final Exam 8/13 & 8/14
+enter command (? for help):      H3 due 7/6
+===[ P1 due 6/22 ]===
+     P2 due 7/11
+enter command (? for help): not found
+enter command (? for help): P1 due 6/22
+P2 due 7/11
+H1 due 6/15
+H2 due 6/22
+Final Exam 8/13 & 8/14
+Midterm Exam 7/16 & 7/17
+H3 due 7/6
+enter command (? for help):      H3 due 7/6
+===[ P2 due 7/11 ]===
+     H1 due 6/15
+enter command (? for help):      Midterm Exam 7/16 & 7/17
+===[ H3 due 7/6 ]===
+     P2 due 7/11
+enter command (? for help):      Final Exam 8/13 & 8/14
+===[ Midterm Exam 7/16 & 7/17 ]===
+     H3 due 7/6
+enter command (? for help): Midterm Exam 7/16 & 7/17
+H3 due 7/6
+P2 due 7/11
+H1 due 6/15
+H2 due 6/22
+Final Exam 8/13 & 8/14
+enter command (? for help): unable to load
+enter command (? for help): enter command (? for help): Midterm Exam 7/16 & 7/17
+H3 due 7/6
+P2 due 7/11
+H1 due 6/15
+H2 due 6/22
+Final Exam 8/13 & 8/14
+H2 due 6/22
+H3 due 7/6
+H1 due 6/15
+enter command (? for help):      H1 due 6/15
+===[ H4 due 7/13 ]===
+     H3 due 7/6
+enter command (? for help): H4 due 7/13
+H3 due 7/6
+P2 due 7/11
+H1 due 6/15
+H2 due 6/22
+Final Exam 8/13 & 8/14
+H2 due 6/22
+H3 due 7/6
+H1 due 6/15
+enter command (? for help): warning: file already exists, will be overwritten
+enter command (? for help): quit

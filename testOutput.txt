@@ -1,0 +1,153 @@
+enter command (? for help): ?
+a (add after)  b (add before)  d (display)
+f (find)       r (remove)      u (update)
+> (next)       < (previous)    j (jump)
+s (save)       l (load)        q (quit)
+enter command (? for help): d
+no messages
+enter command (? for help): j
+invalid command
+enter command (? for help): j hello
+invalid command
+enter command (? for help): j 10
+no messages
+enter command (? for help): b
+invalid command
+enter command (? for help): s info.txt
+no messages to save
+enter command (? for help): f
+invalid command
+enter command (? for help): f a
+no messages
+enter command (? for help): a H1 due 6/15
+===[ H1 due 6/15 ]===
+enter command (? for help): a H3 due 7/6
+===[ H3 due 7/6 ]===
+     H1 due 6/15
+enter command (? for help): b H2 due 6/22
+     H1 due 6/15
+===[ H2 due 6/22 ]===
+     H3 due 7/6
+enter command (? for help): d
+H2 due 6/22
+H3 due 7/6
+H1 due 6/15
+enter command (? for help): s messages.txt
+warning: file already exists, will be overwritten
+enter command (? for help): d
+H2 due 6/22
+H3 due 7/6
+H1 due 6/15
+enter command (? for help): >
+     H2 due 6/22
+===[ H3 due 7/6 ]===
+     H1 due 6/15
+enter command (? for help): a P1 due 6/22
+     H3 due 7/6
+===[ P1 due 6/22 ]===
+     H1 due 6/15
+enter command (? for help): j 3
+     H2 due 6/22
+===[ H3 due 7/6 ]===
+     P1 due 6/22
+enter command (? for help): d
+H3 due 7/6
+P1 due 6/22
+H1 due 6/15
+H2 due 6/22
+enter command (? for help): b Midterm Exam 7/16 & 7/17
+     H2 due 6/22
+===[ Midterm Exam 7/16 & 7/17 ]===
+     H3 due 7/6
+enter command (? for help): b Final Exam 8/13 & 8/14 
+     H2 due 6/22
+===[ Final Exam 8/13 & 8/14 ]===
+     Midterm Exam 7/16 & 7/17
+enter command (? for help): j -2
+     P1 due 6/22
+===[ H1 due 6/15 ]===
+     H2 due 6/22
+enter command (? for help): b P2 due 7/11
+     P1 due 6/22
+===[ P2 due 7/11 ]===
+     H1 due 6/15
+enter command (? for help): d
+P2 due 7/11
+H1 due 6/15
+H2 due 6/22
+Final Exam 8/13 & 8/14
+Midterm Exam 7/16 & 7/17
+H3 due 7/6
+P1 due 6/22
+enter command (? for help): f H
+     P2 due 7/11
+===[ H1 due 6/15 ]===
+     H2 due 6/22
+enter command (? for help): f H
+     H1 due 6/15
+===[ H2 due 6/22 ]===
+     Final Exam 8/13 & 8/14
+enter command (? for help): f P1
+     H3 due 7/6
+===[ P1 due 6/22 ]===
+     P2 due 7/11
+enter command (? for help): f Quiz
+not found
+enter command (? for help): d
+P1 due 6/22
+P2 due 7/11
+H1 due 6/15
+H2 due 6/22
+Final Exam 8/13 & 8/14
+Midterm Exam 7/16 & 7/17
+H3 due 7/6
+enter command (? for help): r
+     H3 due 7/6
+===[ P2 due 7/11 ]===
+     H1 due 6/15
+enter command (? for help): <
+     Midterm Exam 7/16 & 7/17
+===[ H3 due 7/6 ]===
+     P2 due 7/11
+enter command (? for help): <
+     Final Exam 8/13 & 8/14
+===[ Midterm Exam 7/16 & 7/17 ]===
+     H3 due 7/6
+enter command (? for help): d
+Midterm Exam 7/16 & 7/17
+H3 due 7/6
+P2 due 7/11
+H1 due 6/15
+H2 due 6/22
+Final Exam 8/13 & 8/14
+enter command (? for help): l info.txt
+unable to load
+enter command (? for help): l messages.txt
+enter command (? for help): d
+Midterm Exam 7/16 & 7/17
+H3 due 7/6
+P2 due 7/11
+H1 due 6/15
+H2 due 6/22
+Final Exam 8/13 & 8/14
+H2 due 6/22
+H3 due 7/6
+H1 due 6/15
+enter command (? for help): u H4 due 7/13
+     H1 due 6/15
+===[ H4 due 7/13 ]===
+     H3 due 7/6
+enter command (? for help): d
+H4 due 7/13
+H3 due 7/6
+P2 due 7/11
+H1 due 6/15
+H2 due 6/22
+Final Exam 8/13 & 8/14
+H2 due 6/22
+H3 due 7/6
+H1 due 6/15
+enter command (? for help): s messages.txt
+warning: file already exists, will be overwritten
+enter command (? for help): q
+quit
